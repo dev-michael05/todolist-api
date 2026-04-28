@@ -11,7 +11,7 @@ app.use(cors())
 app.use(morgan('dev'))
 
 app.use(express.json())
-app.use(express.urlencoded({ extend: true }))
+app.use(express.urlencoded({ extendend: true }))
 
 app.use('/api', taskRoutes)
 

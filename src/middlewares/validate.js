@@ -1,5 +1,3 @@
-const schema = require('../schemas/taskSchema')
-
 const validate = (schema, propriedade = 'body' ) => {
   return (req, res, next)=>{
     
